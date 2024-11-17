@@ -1,0 +1,32 @@
+/* CSS for the Navbar */
+
+/* Rotating animation */
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotating {
+    animation: rotate 3s linear infinite; /* Rotates in 3 seconds continuously */
+  }
+  
+  .nav-wrapper {
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .nav-content .ui.header {
+    font-size: 2.5rem;
+    color: #4a4a4a;
+  }
+  
+  .app-logo {
+    width: 80px;
+    margin: 10px auto;
+  }
+  
